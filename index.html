@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,39 +8,49 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
+
 <body>
-    <h1>First Repo Test</h1>
-    <h1>Making a Passowrd validation</h1>
 
-    <p id='Text1'>Please enter the details below</p>
-    <button class='btnGreen' onclick="turnButtonGreen()">CLICK ME</button>
-    <button class='btnRed' onclick="turnButtonRed()">CLICK ME</button>
-    <button class='btnBlue' onclick="turnButtonBlue()">CLICK ME</button>
-    <br>
-    <br>
-    <label for="fname">Type of Animal:</label>
-    <input id='inputValue1' type="text">
-    <br>
-    <br>
-    <label for="fname">Animal age:</label>
-    <input type="text">
-    <br>
-    <br>
-    <label for="fname">Animal name:</label>
-    <input type="text">
-    <br>
-    <br>
-    <button class='btnDefault' onclick="saveButton()">SAVE</button>
-    <br>
-    <br>
-    <p id='Text2'></p>
-    <br>
-    <br>
-    <p id='Text3'></p>
+    <p class="spacer"></p>
+    <div>
+        <h1>First Repo Test</h1>
+        <h1>Taking and Displaying Info</h1>
 
+        <p id='Text1'>Please enter the details below</p>
+        <button class='btnGreen' onclick="turnButtonGreen()">CLICK ME</button>
+        <button class='btnRed' onclick="turnButtonRed()">CLICK ME</button>
+        <button class='btnBlue' onclick="turnButtonBlue()">CLICK ME</button>
 
-    <input type="text" id="myInput" />
-    
-    
+        <p class="spacer"></p>
+        
+            <label for="fname">Type of Animal:</label>
+            <input id='inputValue1' type="text" class="inputFieldSet1">
+        
+        <p class="spacer"></p>
+        
+            <label for="fname">Animal age:</label>
+            <input id="inputValue2" type="text" class="inputFieldSet2">
+        
+        <p class="spacer"></p>
+        
+            <label for="fname">Animal name:</label>
+            <input id="inputValue3" type="text" class="inputFieldSet3">
+        
+        <p class="spacer"></p>
+        
+            <button class='btnDefault' onclick="saveButton()">SAVE</button>
+        
+        <p class="spacer"></p>
+
+    </div>
+    <div id="animalCard" class="animalCardStyle">
+        <h1 id='Text2'></h1>
+        <p id='Text3'></p>
+        <p id='Text4'></p>
+        <p id='Text5'></p>
+        <p id='Text6'></p>
+    </div>
+
 </body>
+
 </html>

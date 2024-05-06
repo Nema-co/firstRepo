@@ -5,6 +5,7 @@
 
 const array1 = [' Cat ', ' Dog ', ' Mouse '];
 const diction1 = [{}];
+const passwordData = [{}];
 
 const txtBox1 = document.getElementById("inputValue1")
 const out1 = document.getElementById("Text2")
@@ -13,8 +14,9 @@ let animal = 'dog'
 let animal2 = 'dog2'
 
 array1.push(' Lemon ')
-diction1[animal] = 'MAX'
-diction1[animal2] = 'Bruno'
+//diction1[animal] = 'MAX'
+//diction1[animal2] = 'Bruno'
+//diction1.option3 = 'Frank'
 
 
 function turnButtonGreen() {
@@ -36,14 +38,28 @@ function turnButtonBlue() {
 }
 
 function saveButton() {
-    out1.innerHTML = txtBox1.value;
-    array1.push(txtBox1.value)
+    let Input1 = "Type";
+    let Input2 = "Age";
+    let Input3 = "Name";
+
+    answerType = document.getElementById("inputValue1").value
+    answerAge = document.getElementById("inputValue2").value
+    answerName = document.getElementById("inputValue3").value
+
+    diction1[Input1] = answerType
+    diction1[Input2] = answerAge
+    diction1[Input3] = answerName
+
+    document.getElementById("Text3").innerHTML = "ANIMAL INFO:";
+    document.getElementById("Text4").innerHTML = "TYPE: " + diction1['Type'];
+    document.getElementById("Text5").innerHTML = "NAME: " + diction1['Name'];
+    document.getElementById("Text6").innerHTML = "AGE: " + diction1['Age'];
 }
 
 
 
-document.getElementById("Text3").innerHTML = array1
+//document.getElementById("Text3").innerHTML = array1
 //document.getElementById("Text2").innerHTML = diction1['dog']
 //document.getElementById("Text2").innerHTML = test2
 
-console.log()
+//console.log(diction1["Username"].Age)

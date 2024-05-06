@@ -2,16 +2,45 @@
     background-color: Green;
     color: white;
     border-radius: 7px;
-  }
-  
-  .btnRed {
+}
+
+.btnRed {
     background-color: Red;
     color: white;
     border-radius: 7px;
-  }
-  
-  .btnBlue {
+}
+
+.btnBlue {
     background-color: Blue;
     color: white;
     border-radius: 7px;
-  }
+}
+
+.animalCardStyle {
+    margin: 10px;
+    background-color: bisque;
+    border-style: solid;
+    border-color: rgb(152, 126, 93);
+}
+
+div {
+    padding: 15px;
+    margin: 10px;
+    background-color: bisque;
+    border-style: solid;
+    border-color: rgb(152, 126, 93);
+}
+
+body {
+    background-color: rgb(247, 176, 118);
+}
+
+.spacer{
+    background-color: rgb(251, 220, 183);
+    ;
+    padding: 10px;
+}
+
+.inputFieldSet1{ margin-left: 30px; }
+.inputFieldSet2{ margin-left: 57px; }
+.inputFieldSet3{ margin-left: 45px; }
