@@ -1,0 +1,17 @@
+.btnGreen {
+    background-color: Green;
+    color: white;
+    border-radius: 7px;
+  }
+  
+  .btnRed {
+    background-color: Red;
+    color: white;
+    border-radius: 7px;
+  }
+  
+  .btnBlue {
+    background-color: Blue;
+    color: white;
+    border-radius: 7px;
+  }
