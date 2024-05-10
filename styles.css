@@ -1,7 +1,11 @@
-.btnGreen {
-    background-color: Green;
-    color: white;
+.submitButton {
+    text-align: center;
+    background-color: rgb(184, 237, 184);
+    color: rgb(0, 0, 0);
     border-radius: 7px;
+    margin-left: 35%;
+    width: 30%;
+    
 }
 
 .btnRed {
@@ -14,6 +18,11 @@
     background-color: Blue;
     color: white;
     border-radius: 7px;
+}
+
+.centralDiv {
+    width: 70%;
+    margin-left: 15%;
 }
 
 .animalCardStyle {
@@ -35,12 +44,36 @@ body {
     background-color: rgb(247, 176, 118);
 }
 
-.spacer{
+.spacer {
     background-color: rgb(251, 220, 183);
-    ;
     padding: 10px;
+    width: 40%;
 }
 
-.inputFieldSet1{ margin-left: 30px; }
-.inputFieldSet2{ margin-left: 57px; }
-.inputFieldSet3{ margin-left: 45px; }
+.inputFieldSet1 {
+    float: inline-end;
+    width: 40%;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.inputFieldSet2 {
+    float: inline-end;
+    width: 30%;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.inputFieldSet3 {
+    float: inline-end;
+}
+
+table,
+th,
+td,
+tr {
+    border: 1px solid black;
+    padding: 5px 15px 5px 15px;
+    margin: 7px;
+
+}
