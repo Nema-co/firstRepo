@@ -5,7 +5,7 @@
     border-radius: 7px;
     margin-left: 35%;
     width: 30%;
-    
+
 }
 
 .btnRed {
@@ -25,7 +25,7 @@
     margin-left: 15%;
 }
 
-.animalCardStyle {
+.cardStyle {
     margin: 10px;
     background-color: bisque;
     border-style: solid;
@@ -68,12 +68,29 @@ body {
     float: inline-end;
 }
 
-table,
-th,
+
 td,
 tr {
-    border: 1px solid black;
+    border: 1px solid;
+    border-color: rgb(152, 126, 93);
     padding: 5px 15px 5px 15px;
     margin: 7px;
+}
 
+table {
+    border: 1px solid;
+    border-color: rgb(152, 126, 93);
+    padding: 5px 5px 5px 5px;
+    margin: 7px;
+}
+
+th {
+    /*border: 1px solid black;*/
+    border-color: rgb(152, 126, 93);
+    padding: 5px 5px 10px 5px;
+    margin: 7px;
+}
+
+#toDoListDiv {
+    border-radius: 15px;
 }

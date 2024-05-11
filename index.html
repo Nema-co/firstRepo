@@ -17,17 +17,18 @@
 
         <div class="spacer">
             <label for="fname">Item to do:</label>
-            <input id='inputValue1' type="text" class="inputFieldSet1">
+            <input id='activityDetail' type="text" class="inputFieldSet1" placeholder="Activities">
         </div>
 
         <div class="spacer">
             <label for="catagory">Catagory:</label>
             <select name="Catagory" id="catagory" class="inputFieldSet2">
-                <option value="study">Study</option>
-                <option value="leasure">Leasure</option>
-                <option value="family">Family</option>
-                <option value="healthAndFitness">Health And Fitness</option>
-                <option value="chores">Chores</option>
+                <option value="Study">Study</option>
+                <option value="Leasure">Leasure</option>
+                <option value="Family">Family</option>
+                <option value="Health And Fitness">Health And Fitness</option>
+                <option value="Chores">Chores</option>
+                <option value="" selected>Catagory options</option>
             </select>
         </div>
 
@@ -38,6 +39,7 @@
                 <option value="2">Priority 2</option>
                 <option value="3">Priority 3</option>
                 <option value="4">Priority 4</option>
+                <option value="" selected>Priority options</option>
             </select>
         </div>
 
@@ -46,14 +48,14 @@
             <input type="date" id="date1" class="inputFieldSet2">
         </div>
         <div class="spacer">
-            <button class='submitButton' onclick="saveButton()">SAVE</button>
+            <button class='submitButton' onclick="subitButton()">SAVE</button>
         </div>
 
     </div>
     <div class="centralDiv">
-        <div id="animalCard" class="animalCardStyle">
+        <div id="animalCard" class="cardStyle">
             <h1 id='toDoListHeader'>To Do List</h1>
-            <div id='Div1'>
+            <div id='toDoListDiv'>
                 <ol id="list1">
                 </ol>
             </div>
